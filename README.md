@@ -27,5 +27,18 @@ To run this project, you need the following:
 
 Install the required Python packages using the following command:
 
-```bash
 pip install -r [requirements.txt](http://_vscodecontentref_/0)
+
+python main.py
+
+
+### Notes
+- CAPTCHA Handling: If Google Scholar detects unusual traffic, you may encounter a CAPTCHA. Solve the CAPTCHA in the browser window that opens, then press ENTER in the terminal to continue.
+- Headless Mode: The scraper avoids headless mode to reduce the likelihood of detection by Google Scholar.
+
+
+### Troubleshooting
+- Browser Not Found: Ensure that Chrome or Firefox is installed and the corresponding driver is in your system's PATH.
+- CAPTCHA Issues: If CAPTCHA appears frequently, reduce the scraping speed or use a different IP address.
+- Dependencies: Ensure all dependencies are installed using pip install -r requirements.txt.
+```bash
