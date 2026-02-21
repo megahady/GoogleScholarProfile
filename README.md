@@ -41,4 +41,8 @@ python main.py
 - Browser Not Found: Ensure that Chrome or Firefox is installed and the corresponding driver is in your system's PATH.
 - CAPTCHA Issues: If CAPTCHA appears frequently, reduce the scraping speed or use a different IP address.
 - Dependencies: Ensure all dependencies are installed using pip install -r requirements.txt.
+
+### Disclaimer
+This tool is for educational and research purposes only. Scraping Google Scholar may violate their terms of service. Use responsibly.
+
 ```bash
